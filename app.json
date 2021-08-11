@@ -1,0 +1,14 @@
+{
+  "name": "Marvin crypto bot",
+  "description": "Bitcoin bot.",
+  "image": "heroku/python",
+  "repository": "https://github.com/csatio/marvin42",
+  "keywords": ["python", "flask" ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "main.py test"
+      }
+    }
+  }
+}
